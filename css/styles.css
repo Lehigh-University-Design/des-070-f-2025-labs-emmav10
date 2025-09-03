@@ -1,0 +1,74 @@
+:root {
+  background-color: #a98360;
+  --light-color: #fdeed9;
+  --dark-color:#573c27;
+  --link-color: #ffadc6;
+  --hover-color: #e34989;
+}
+
+body { 
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--light-color)
+}
+
+main {
+  position: relative;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+#head {
+  display: flex;
+  justify-content: space-between;
+}
+
+#head h3 a {
+  color: var(--dark-color);
+  text-decoration:wavy underline;
+}
+
+/*Our Post Class*/
+.post {
+  border:5px solid var(--dark-color);
+  margin-bottom: 1em;
+  padding: .5em 1em;
+  img {
+    width: 60%;
+    height: auto;
+    display: block;
+  }
+  a {
+  color: var(--link-color);
+  background-color: var(--dark-color);
+  text-decoration: none;
+  padding: .2em .5em;
+  }
+  a:hover {
+    background-color: var(--hover-color);
+  }
+}
+
+.special-headline {
+  font-weight: 900;
+  color: var(--light-color);
+}
+
+#unique-headline {
+  font-weight: 600;
+  color: var(--hover-color);
+}
+
+#post {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  padding: 1em;
+  border: 5px solid var(--light-color);
+}
+
+footer {
+  text-align: center;
+  justify-content: center;
+  font-size:smaller;
+}
