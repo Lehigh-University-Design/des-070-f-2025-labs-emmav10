@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design 1 Labs | CSS Ex 2: Intro / Syntax / Selectors</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <main>
+        <div id="head">
+            <div>
+                <h3><a href="../">DES 070 Labs</a></h3>
+            </div> 
+            <div class="sub-head"><h3>CSS Exercise 2: Selectors</h3></div>
+        </div>
+
+        <div class="post">
+
+            <h2>Display and Position</h2>
+
+            <h3>Hidden</h3>
+            <div class="hide-me">
+                <p>This is hidden text.</p>
+            </div>
+
+            <h3>Block</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores accusamus officiis ipsa eaque velit commodi aspernatur autem! Adipisci impedit magni voluptatibus iusto hic molestiae earum omnis nesciunt dolores eos. Officiis.</p>
+            <div class="block-div">
+                <p>This block is defined by its parent container.</p>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem deleniti eum accusamus repellat quaerat tempore asperiores ipsum, veniam ut voluptates.</p>
+        </div>
+    
+
+        <h3>Inline</h3>
+        <p>This is an <span>This is an inline</span></span> example <em> emphasis </em> con <strong>bold tet</strong> elit.</p>
+        
+        <div class="post">
+            <h2>CSS Positioning</h2>
+            
+            <p>Used to alter the elements natural layout.</p>
+
+            <h3>Static</h3>
+            <p>Static positioned elements are not affected by propoerties from left right top bottom.</p>
+            <div class="static">This is a static positioned div.</div>
+
+            <h3>Fixed</h3>
+            <div class="fixed">This is a fixed div class.</div>
+
+            <h3>Relative</h3>
+            <p>Relative is positioned relative to its normal position. It's used best when there's an ancestor with some position property as well and we can alter its final position. Otherwise, its just like static.</p>
+            
+            <div class="relative">
+                This is a relative div class.
+            </div>
+
+            <h3>Absolute</h3>
+            <p>Absolute is positioned relative to its nearest positioned ancestor (not static). If an
+                <div class="absolute-demo-holder">
+                    <div class="absolute-bubble"></div>
+                </div>
+
+            <h3>Sticky</h3>
+            <p>Sticky is positioned based on the user's scroll position. A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).</p>
+            <div class="sticky-demo-holder">This is a sticky div class.
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni repellat adipisci placeat corporis ipsam molestias, ipsa esse et obcaecati nesciunt. Quae adipisci dolor neque necessitatibus, sequi excepturi ex at voluptatum inventore natus! Nisi debitis a provident quidem consequatur sint esse optio, facilis numquam laboriosam, officiis soluta tempore eligendi ad. Soluta.</p>
+                <div class="sticky-bit">I am the sticky bit!</div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quasi enim voluptatum, labore voluptates sunt blanditiis, optio eligendi, ad laudantium nihil aperiam non quaerat illum excepturi necessitatibus autem odit assumenda exercitationem recusandae debitis dolorum? Accusamus dolores assumenda nobis voluptatibus facere, officia velit earum dicta atque, rerum molestias, sequi adipisci deserunt aliquid vel perferendis. Id doloremque voluptatibus, sint nostrum fugit neque. Doloribus quis praesentium ex natus tempora, recusandae quasi voluptas ea?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, ipsum labore nobis, id consectetur dolores obcaecati nam incidunt mollitia deleniti in voluptatibus laborum voluptatem. Accusantium enim dolor nemo, hic dolore dicta aperiam soluta cum accusamus molestiae optio. Veritatis, commodi, id explicabo quaerat debitis minus, suscipit fugit impedit odit mollitia iusto molestias. Maxime omnis corporis esse fuga, similique ad aliquam. Beatae quos placeat in consectetur iusto, rem dolores explicabo error ut modi asperiores dicta accusamus sint repellat laborum eaque ex dolor eveniet sequi quo suscipit veritatis quae dolorum. Optio, excepturi praesentium harum ipsum mollitia illo quibusdam consectetur dolorem eveniet nostrum soluta!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex totam deleniti reiciendis magni nostrum, sed illum officia natus necessitatibus incidunt laboriosam. Mollitia laudantium voluptatibus reiciendis quasi unde placeat autem ratione asperiores ipsam ea corporis cupiditate, necessitatibus optio dolores adipisci aspernatur maiores ad perspiciatis maxime hic sed totam! Nostrum at delectus quam itaque! Omnis illum fugit dolore vel quibusdam quasi atque.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum corrupti velit autem at obcaecati et eos dignissimos laborum. Molestiae, consequatur? Sint quaerat magnam non repellat reiciendis mollitia est exercitationem. Unde voluptas ad nisi vero perferendis suscipit excepturi exercitationem pariatur. Cupiditate recusandae natus, numquam fugiat pariatur, magni at ut placeat veniam voluptas assumenda eaque culpa illo voluptatum, architecto distinctio perferendis? Officiis maxime nam numquam ab, incidunt beatae nemo aspernatur ex. Quas.</p>
+            </div>
+        </div>
+
+        <div class="float-demo-holder">
+            <div class="img-right"><img src="/images/inspirational quote.jpg" width="200"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit fugit distinctio odit maiores ipsum modi repellat soluta numquam labore expedita! Aliquam vitae illo fuga et quam corporis cumque id, esse harum neque quo? Repellat iusto corporis quasi nostrum alias, dicta doloribus aliquam ipsum voluptatibus nemo nisi reprehenderit autem expedita dolor recusandae, tempora soluta odio reiciendis! Obcaecati pariatur deleniti corporis. Cum animi incidunt qui non odio voluptate maxime tenetur! Molestias ad, rerum recusandae cupiditate est culpa. Repellendus qui, totam rerum assumenda cumque aperiam, voluptatem eos, deleniti est enim velit facere facilis et omnis provident deserunt maxime fuga mollitia! Nisi nemo corrupti quaerat minus itaque similique incidunt debitis, totam fugit! Perferendis impedit molestias tempora magni nisi quaerat consectetur quasi eaque cumque illo minima accusantium natus, sequi blanditiis nobis quis! Nisi qui accusamus eius perspiciatis facilis ex voluptatum quidem maiores! Veritatis laboriosam aut eligendi eius. Omnis maiores neque recusandae aspernatur, veritatis totam rem excepturi. Sit sint eaque nihil eius maiores quae omnis id magnam totam dolores in dicta ipsam est nulla, a officia assumenda tempora? Totam quam ab, doloribus doloremque molestias autem temporibus quisquam iste amet animi, mollitia pariatur nulla ipsa iusto tempore aliquam repellendus blanditiis, fuga saepe dolores corrupti perspiciatis. Nihil, porro?</p>
+
+        </div>
+
+        <footer>
+            <p>Copyright DES 070. Made with Love.</p>
+        </footer>
+   </main>
+</body>
+
+</html>
