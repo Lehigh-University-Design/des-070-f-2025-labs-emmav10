@@ -306,3 +306,58 @@ footer {
   display: grid;
   place-content: center; /*start, center, end (shorthand for justify-content with align-content)*/
 }
+
+/*F;ex Lab*/
+
+.flex-container-justify {
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: center;
+}
+
+.flex-item {
+ width:100px;
+ background-color: var(--hover-color);
+margin: 1em;
+padding: 1em;
+}
+
+.flex-container-align {
+  display: flex;
+  flex-wrap:nowrap;
+  height: 60vh;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-card {
+  display: flex;
+  width: calc(100%/3);
+}
+
+.flex-card-inner {
+  margin: 1em;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  text-align: center;
+  h4 {
+    background-color: var(--hover-color);
+    display: inline-block;
+    color: var(--light-color);
+    padding: .25em;
+  }
+  img {
+    border-radius: 50%;
+  }
+}
