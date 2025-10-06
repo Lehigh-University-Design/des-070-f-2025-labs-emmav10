@@ -307,7 +307,7 @@ footer {
   place-content: center; /*start, center, end (shorthand for justify-content with align-content)*/
 }
 
-/*F;ex Lab*/
+/*Flex Lab*/
 
 .flex-container-justify {
   display: flex;
