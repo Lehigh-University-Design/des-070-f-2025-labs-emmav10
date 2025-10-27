@@ -1,0 +1,35 @@
+@media only screen and (max-width: 768px) {
+
+  body {
+    font-size: 16px;
+  }
+
+    .grid-boxes {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-boxes {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2em;
+  margin-bottom: 2em;
+  max-width: 500px;
+}
+
+.box {
+  aspect-ratio: 1;
+  padding: 2em;
+  background-color: var(--dark-color);
+  background-image: url('../images/halloweentown.webp');
+    background-size: cover;
+  background-image: url(../images/nightmare-before-christmas.webp);
+    background-size: cover;
+  color: var(--background-color);
+  max-width: 450px;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
